@@ -1,0 +1,53 @@
+.App {
+  width: 100%;
+  background-color: beige;
+  }
+  
+  table {
+    padding-top: 45px;
+    margin: auto;
+  border: 2px solid rgb(30, 36, 30);
+  width: 800px;
+  height: 200px;
+  }
+  
+  th {
+  border-bottom: 1px solid black;
+  }
+  
+  td {
+  text-align: center;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #212121;
+    color: whitesmoke;
+    flex-direction: column;
+  }
+  .main-header{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .create-form label{
+    color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px !important;
+  }
+  .loginicon {
+    position: absolute;
+    width: 80px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: black;
+    height: 40px;
+    left: 85%;
+    top: 10px;
+    background:#2bc6ff;
+    border-radius: 24px;
+    cursor: pointer;
+  }
